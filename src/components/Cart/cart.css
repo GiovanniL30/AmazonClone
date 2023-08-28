@@ -1,0 +1,160 @@
+.cart-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.cart-item-container {
+  width: 100%;
+  border: 1px solid rgb(227, 227, 227);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-bottom: 20px;
+  max-width: 580px;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.delivery-due {
+  color: rgb(0, 118, 0);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.cart-item-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-info {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 0.34rem;
+}
+
+.item-name {
+  font-weight: 600;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.item-price {
+  color: rgb(177, 39, 4);
+  font-weight: 600;
+  font-size: 0.7em;
+}
+
+.delete-update-container {
+  display: flex;
+  align-items: center;
+  font-size: 0.7em;
+  gap: 0.4rem;
+}
+
+.item-quantity {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.update {
+  color: rgb(89, 199, 89);
+  cursor: pointer;
+}
+
+.delete {
+  color: rgb(189, 60, 60);
+  cursor: pointer;
+}
+
+.save {
+  color: rgb(229, 195, 5);
+  cursor: pointer;
+}
+
+.delete:hover {
+  opacity: 0.5;
+}
+
+.update:hover {
+  opacity: 0.5;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.option-container {
+  margin-top: 10px;
+}
+
+.choose-title {
+  font-size: 0.9em;
+}
+
+.quantity-update {
+  width: 50px;
+}
+
+.delivery-options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.7em;
+}
+
+input {
+  cursor: pointer;
+}
+
+.option label p:first-child {
+  color: rgb(0, 118, 0);
+  font-weight: 500;
+}
+
+@media screen and (min-width: 425px) {
+  .text-info {
+    font-size: 1.3em;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .item-name {
+    margin: 0;
+    width: 200px;
+  }
+
+  .option {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 590px) {
+  .item-wrapper {
+    flex-direction: row;
+  }
+}

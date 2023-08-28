@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+}
+
+.cart-logo {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+.lock-icon {
+  object-fit: scale-down;
+}
